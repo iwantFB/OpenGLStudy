@@ -92,7 +92,7 @@
                               };
     
     GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithContentsOfFile:filePath options:options error:nil];
-    //着色器
+    //着色器 
     self.mEffect.texture2d0.name = textureInfo.name;
 }
 
